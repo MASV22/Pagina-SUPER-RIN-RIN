@@ -60,7 +60,7 @@
               >
                 <button
                   type="button"
-                  class="btn btn-outline-warning btn-lg btn-block"
+                  class="btn btn-outline-warning btn-lg btn-block active"
                   aria-pressed="true"
                 >
                   Minijuegos
@@ -113,95 +113,80 @@
     >
       <!-- Masthead-->
       <header class="masthead text-white text-center" id="start">
-        <div class="container d-flex align-items-center flex-column">
-          <!-- Masthead Logo Image-->
-          <img class="masthead-avatar mb-5" src="assets/logo.png" alt="..." />
-        </div>
         <section class="py-5 text-center container">
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-6 mx-auto">
-              <img
-                src="assets\rinrin.png"
-                class="img-fluid"
-                alt="Responsive image"
-                id="rinrin"
-              />
-            </div>
-            <div class="col-lg-6 col-md-6 mx-auto">
               <br /><br /><br />
-              <h1 class="text-light">SUPER RIN RIN</h1>
+              <h1 class="text-light">Minijuegos</h1>
               <br /><br /><br />
-              <p class="text-light">
-                Si quieres conocer más acerca de las aventuras de Super Rin Rin
-                y todo lo que está sucediendo en el planeta Pombotronix, no
-                olvides visitarnos en nuestras redes para estar más al pendiente
-                del caos y como solucionarlo. Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Quasi magni fugiat iste enim omnis
-                voluptas distinctio vel laborum iusto et modi fuga nulla,
-                facilis molestias dolor obcaecati architecto cupiditate! Eum!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                et consequatur magnam id possimus soluta esse, expedita maiores
-                voluptate qui nesciunt saepe minus nostrum inventore aliquid,
-                placeat voluptas. Voluptatem, quas?
-              </p>
+              <div id="tierra">
+                <img
+                  src="assets\earth.png"
+                  class="img-fluid"
+                  alt="Responsive image"
+                />
+                <button
+                  class="botonF1"
+                  id=""
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolioModal1"
+                ></button>
+                <button class="botonF2" id="tierra"></button>
+                <button class="botonF3" id="tierra"></button>
+              </div>
             </div>
           </div>
         </section>
       </header>
-      <!-- Video Section-->
-      <section class="text-center container">
-        <div class="container">
-          <!-- Portfolio Section Heading-->
-          <h2
-            class="page-section-heading text-center text-white mb-0"
-            id="tituloVideo"
-          >
-            ¿Quieres volver a ver como comienza esta historia?
-          </h2>
-          <!-- Icon Divider-->
-          <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-          </div>
-          <!-- Video-->
-          <div class="row py-lg-5">
-            <div class="ratio ratio-16x9">
-              <iframe
-                width="1200"
-                height="700"
-                src="https://www.youtube.com/embed/hP-Qpg-g7t0"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                class="img-fluid"
-                alt="Responsive image"
-              ></iframe>
+
+      <!-- Ventana emergente-->
+      <div
+        class="portfolio-modal modal fade"
+        id="portfolioModal1"
+        tabindex="-1"
+        aria-labelledby="portfolioModal1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content bg-dark">
+            <div class="modal-header border-0">
+              <a href="minijuegos.html" class="btn-close"> </a>
             </div>
-          </div>
-          <br /><br />
-        </div>
-      </section>
-      <!--ventana emergente-->
-      <div class="overlay" id="overlay">
-        <div class="popup" id="popup">
-          <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"
-            ><i class="fas fa-times"></i
-          ></a>
-          <div class="ratio ratio-16x9">
-            <iframe
-              id="video"
-              width="1200"
-              height="700"
-              src="https://www.youtube.com/embed/hP-Qpg-g7t0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              class="img-fluid"
-              alt="Responsive image"
-            ></iframe>
+            <div class="modal-body text-center pb-12">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-12">
+                    <!-- Portfolio Modal - Title-->
+                    <h2
+                      class="portfolio-modal-title text-white text-uppercase mb-0"
+                    >
+                      Rin Rin Corre Corre
+                    </h2>
+                    <!-- Icon Divider-->
+                    <div class="divider-custom divider-light">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon">
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Portfolio Modal - Image-->
+                    <div class="ratio ratio-4x3">
+                      <iframe
+                        src="https://masv22.github.io/sevedol/"
+                        allowfullscreen
+                        class="img-fluid"
+                        alt="Responsive image"
+                      ></iframe>
+                    </div>
+                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                      <i class="fas fa-xmark fa-fw"></i>
+                      Close Window
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -255,7 +240,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <script src="js/codigo.js"></script>
+    <!-- <script src="js/minijuegos.js"></script> -->
 
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   </body>
