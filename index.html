@@ -32,12 +32,13 @@
   <body id="page-top">
     <!-- Navigation-->
     <nav
-      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+      class="navbar navbar-expand-lg text-uppercase fixed-top"
       id="mainNav"
+      style="background-image: url('assets/Nav Bar/Fondo_Nav_Bar.png')"
     >
       <div class="container">
         <a href="index.html" class="navbar-brand d-flex align-items-center">
-          <img src="assets\logoS.png" height="50rem" />
+          <img src="assets/Nav Bar/Logo.png" height="120rem" />
         </a>
         <button
           class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -58,49 +59,37 @@
                 class="nav-link py-3 px-0 px-lg-3 rounded"
                 href="minijuegos.html"
               >
-                <button
-                  type="button"
-                  class="btn btn-outline-warning btn-lg btn-block"
-                  aria-pressed="true"
-                >
-                  Minijuegos
-                </button>
+                <img src="assets/Nav Bar/Juegos.png" alt="" height="120rem" />
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="leyendas.html"
-                ><button
-                  type="button"
-                  class="btn btn-outline-success btn-lg btn-block"
-                  aria-pressed="true"
-                >
-                  Leyendas
-                </button></a
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded"
+                href="leyendas.html"
               >
+                <img src="assets/Nav Bar/Leyendas.png" alt="" height="120rem" />
+              </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a
                 class="nav-link py-3 px-0 px-lg-3 rounded"
                 href="actividades.html"
-                ><button
-                  type="button"
-                  class="btn btn-outline-info btn-lg btn-block"
-                  aria-pressed="true"
-                >
-                  Actividades
-                </button></a
               >
+                <img
+                  src="assets/Nav Bar/Actividades.png"
+                  alt=""
+                  height="120rem"
+                />
+              </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact"
-                ><button
-                  type="button"
-                  class="btn btn-outline-danger btn-lg btn-block"
-                  aria-pressed="true"
-                >
-                  Descubre
-                </button></a
-              >
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">
+                <img
+                  src="assets/Nav Bar/Descubrir.png"
+                  alt=""
+                  height="120rem"
+                />
+              </a>
             </li>
           </ul>
         </div>
@@ -116,7 +105,7 @@
 
     <div
       class="bg-image"
-      style="background-image: url('assets/background.jpg')"
+      style="background-image: url('assets/Home/Fondo.png')"
     >
       <!-- Masthead-->
       <header class="masthead text-white text-center" id="start">
@@ -124,69 +113,23 @@
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-6 mx-auto">
               <img
-                src="assets\rinrin.png"
+                src="assets/Home/Caja con texto.png"
                 class="img-fluid"
                 alt="Responsive image"
                 id="rinrin"
               />
             </div>
             <div class="col-lg-6 col-md-6 mx-auto">
-              <br /><br /><br />
-              <img src="assets\logoS.png" height="50rem" />
-
-              <br /><br /><br />
-              <p class="text-light">
-                Si quieres conocer más acerca de las aventuras de Super Rin Rin
-                y todo lo que está sucediendo en el planeta Pombotronix, no
-                olvides visitarnos en nuestras redes para estar más al pendiente
-                del caos y como solucionarlo. Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Quasi magni fugiat iste enim omnis
-                voluptas distinctio vel laborum iusto et modi fuga nulla,
-                facilis molestias dolor obcaecati architecto cupiditate! Eum!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                et consequatur magnam id possimus soluta esse, expedita maiores
-                voluptate qui nesciunt saepe minus nostrum inventore aliquid,
-                placeat voluptas. Voluptatem, quas?
-              </p>
+              <img
+                src="assets/Home/Super rin rin.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
             </div>
           </div>
         </section>
       </header>
-      <!-- Video Section-->
-      <section class="text-center container">
-        <div class="container">
-          <!-- Portfolio Section Heading-->
-          <h2
-            class="page-section-heading text-center text-white mb-0"
-            id="tituloVideo"
-          >
-            ¿Quieres volver a ver como comienza esta historia?
-          </h2>
-          <!-- Icon Divider-->
-          <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-          </div>
-          <!-- Video-->
-          <div class="row py-lg-5">
-            <div class="ratio ratio-16x9">
-              <iframe
-                width="1200"
-                height="700"
-                src="https://www.youtube.com/embed/hP-Qpg-g7t0"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                class="img-fluid"
-                alt="Responsive image"
-              ></iframe>
-            </div>
-          </div>
-          <br /><br />
-        </div>
-      </section>
+
       <!--ventana emergente-->
       <div class="overlay" id="overlay">
         <div class="popup" id="popup">
@@ -209,12 +152,17 @@
           </div>
         </div>
       </div>
-      <!-- Footer-->
-      <footer class="footer text-center">
+
+      <!-- Copyright Section-->
+      <div
+        class="copyright text-center text-white"
+        style="background-image: url('assets/Nav Bar/Fondo_Nav_Bar.png')"
+      >
         <div class="container">
           <div class="row">
             <!-- Footer Social Icons-->
             <div class="col-lg-12 mb-5 mb-lg-0">
+              <br /><br /><br />
               <a
                 class="btn btn-outline-light btn-social mx-1"
                 style="background-color: #3b5998"
@@ -233,25 +181,10 @@
                 href="#!"
                 ><i class="fab fa-fw fa-youtube"></i
               ></a>
-            </div>
-            <!-- Footer About Text-->
-            <div class="col-lg-12">
-              <div class="container">
-                <br /><br />
-                <a href="#start">
-                  <button class="btn btn-light btn-xl js-scroll-trigger">
-                    Volver al inicio
-                  </button>
-                </a>
-              </div>
+              <br /><br />
+              <br /><br />
             </div>
           </div>
-        </div>
-      </footer>
-      <!-- Copyright Section-->
-      <div class="copyright py-4 text-center text-white">
-        <div class="container">
-          <small>Super Rin Rin - 2022</small>
         </div>
       </div>
     </div>
