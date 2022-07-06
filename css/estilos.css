@@ -185,6 +185,8 @@ iframe {
   transition: 0.3s;
 }
 
+/* Mas verde */
+
 .globoJuego1 {
   width: 25rem;
   right: 90;
@@ -195,6 +197,8 @@ iframe {
   color: #fff;
   transition: 0.3s;
 }
+
+/* Prueba de hielo */
 
 .globoJuego2 {
   width: 25rem;
@@ -207,6 +211,8 @@ iframe {
   transition: 0.3s;
 }
 
+/* Rin Rin Corre Corre */
+
 .globoJuego3 {
   width: 25rem;
   right: 90;
@@ -214,6 +220,84 @@ iframe {
   position: absolute;
   margin-left: -725px;
   margin-bottom: 90px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* El niño curioso */
+
+.globoLeyenda1 {
+  width: 20rem;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -740px;
+  margin-bottom: 365px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* El gato energico */
+
+.globoLeyenda2 {
+  width: 20rem;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -200px;
+  margin-bottom: 265px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* La señora de las mil cosas */
+
+.globoLeyenda3 {
+  width: 20rem;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -745px;
+  margin-bottom: 165px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* El gato energico */
+
+.globoActividad1 {
+  width: 20rem;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -130px;
+  margin-bottom: 365px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* La señora de las mil cosas */
+
+.globoActividad2 {
+  width: 20rem;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -710px;
+  margin-bottom: 465px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* La señora de las mil cosas */
+
+.globoActividad3 {
+  width: 20rem;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -645px;
+  margin-bottom: 95px;
   color: #fff;
   transition: 0.3s;
 }
@@ -247,7 +331,7 @@ iframe {
   bottom: 0;
   position: absolute;
   margin-left: -450px;
-  margin-bottom: 290px;
+  margin-bottom: 350px;
   border: none;
   outline: none;
   color: #fff;
