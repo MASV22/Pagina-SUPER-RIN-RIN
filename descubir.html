@@ -99,7 +99,7 @@
                 href="descubir.html"
               >
                 <img
-                  src="assets/Nav Bar/Descubrir.png"
+                  src="assets/Nav Bar/Descubrir_on.png"
                   alt=""
                   height="120rem"
                   class="imgB"
@@ -114,58 +114,123 @@
     <div
       class="bg-image"
       style="
-        background-image: url('assets/Home/Fondo.png');
+        background-image: url('assets/Descubrir/Fondo.png');
         background-size: cover;
       "
     >
-      <!-- Inicio-->
-      <section class="text-center container">
-        <br /><br /><br /><br />
-        <br />
-        <br />
-        <div class="row py-lg-5">
-          <div class="col-lg-7 col-md-7 mx-auto">
-            <img
-              src="assets/Home/Caja con texto.png"
-              class="img-fluid"
-              alt="Responsive image"
-              id="rinrin"
-            />
-          </div>
-          <div class="col-lg-5 col-md-5 mx-auto">
-            <img
-              src="assets/Home/Super rin rin.png"
-              class="img-fluid"
-              alt="Responsive image"
-            />
-          </div>
-        </div>
-      </section>
+      <!-- Actividades-->
+      <header class="masthead text-white text-center" id="start">
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-4 col-md-4 mx-auto">
+              <div id="tierra">
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolioModal1"
+                  href=""
+                >
+                  <img
+                    src="assets/Descubrir/Blog1.png"
+                    class="img-fluid"
+                    alt="Responsive image"
+                  />
+                </a>
+              </div>
+            </div>
 
-      <!--ventana emergente-->
-      <div class="overlay" id="overlay">
-        <div class="popup" id="popup">
-          <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"
-            ><i class="fas fa-times"></i
-          ></a>
-          <div class="ratio ratio-16x9">
-            <iframe
-              id="video"
-              width="1920"
-              height="1080"
-              src="https://www.youtube.com/embed/hP-Qpg-g7t0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              class="img-fluid"
-              alt="Responsive image"
-            ></iframe>
+            <div class="col-lg-4 col-md-4 mx-auto">
+              <div id="tierra">
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolioModal1"
+                  href=""
+                >
+                  <img
+                    src="assets/Descubrir/Blog2.png"
+                    class="img-fluid"
+                    alt="Responsive image"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 mx-auto">
+              <div id="tierra">
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolioModal1"
+                  href=""
+                >
+                  <img
+                    src="assets/Descubrir/Blog3.png"
+                    class="img-fluid"
+                    alt="Responsive image"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <!-- Portfolio Modal 1-->
+      <div
+        class="portfolio-modal modal fade"
+        id="portfolioModal1"
+        tabindex="-1"
+        aria-labelledby="portfolioModal1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content bg-dark">
+            <div class="modal-header border-0">
+              <button
+                class="btn-close"
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center pb-12">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-12">
+                    <!-- Portfolio Modal - Title-->
+                    <h2
+                      class="portfolio-modal-title text-white text-uppercase mb-0"
+                    >
+                      Rin Rin Renacuajo
+                    </h2>
+                    <!-- Icon Divider-->
+                    <div class="divider-custom divider-light">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon">
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Portfolio Modal - Image-->
+                    <div class="ratio ratio-4x3">
+                      <iframe
+                        src="https://www.youtube.com/embed/hP-Qpg-g7t0"
+                        allowfullscreen
+                        class="img-fluid"
+                        alt="Responsive image"
+                      ></iframe>
+                    </div>
+                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                      <i class="fas fa-xmark fa-fw"></i>
+                      Close Window
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Footer Section-->
+      <!-- Footer-->
       <div
         class="copyright text-center text-white"
         style="background-image: url('assets/Nav Bar/Fondo_Nav_Bar.png')"
