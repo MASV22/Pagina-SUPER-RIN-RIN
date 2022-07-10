@@ -259,24 +259,26 @@ iframe {
 /* El niño curioso */
 
 .globoLeyenda1 {
+  opacity: 0;
   width: 20rem;
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -740px;
-  margin-bottom: 365px;
+  margin-left: -850px;
+  margin-bottom: 425px;
   color: #fff;
   transition: 0.3s;
 }
 
 /* El gato energico */
 
-.globoLeyenda2 {
+.globoLeyenda3 {
+  opacity: 0;
   width: 20rem;
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -200px;
+  margin-left: -270px;
   margin-bottom: 265px;
   color: #fff;
   transition: 0.3s;
@@ -284,13 +286,14 @@ iframe {
 
 /* La señora de las mil cosas */
 
-.globoLeyenda3 {
+.globoLeyenda2 {
+  opacity: 0;
   width: 20rem;
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -745px;
-  margin-bottom: 165px;
+  margin-left: -905px;
+  margin-bottom: 205px;
   color: #fff;
   transition: 0.3s;
 }
@@ -344,8 +347,8 @@ iframe {
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -220px;
-  margin-bottom: 250px;
+  margin-left: -560px;
+  margin-bottom: 410px;
   border: none;
   outline: none;
   color: #fff;
@@ -362,8 +365,8 @@ iframe {
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -450px;
-  margin-bottom: 350px;
+  margin-left: -615px;
+  margin-bottom: 190px;
   border: none;
   outline: none;
   color: #fff;
@@ -380,8 +383,8 @@ iframe {
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -455px;
-  margin-bottom: 150px;
+  margin-left: -290px;
+  margin-bottom: 250px;
   border: none;
   outline: none;
   color: #fff;
@@ -390,9 +393,7 @@ iframe {
   transition: 0.3s;
 }
 
-/* .imgBjuegos:hover {
-  content: url("http://dummyimage.com/100x100/eb00eb/fff");
-} */
+/* HOVER DE LOS BOTONES DE MINIJUEGOS Y OTROS */
 
 .botonF1:hover {
   transform: scale(1);
@@ -400,6 +401,12 @@ iframe {
 .globoJuego1:hover {
   transform: scale(1.05);
   padding-right: 1rem;
+  opacity: 100;
+}
+.globoLeyenda1:hover {
+  transform: scale(1.3);
+  padding-right: 2.5rem;
+  padding-bottom: 1.1rem;
   opacity: 100;
 }
 
@@ -413,6 +420,13 @@ iframe {
   opacity: 100;
 }
 
+.globoLeyenda2:hover {
+  transform: scale(1.3);
+  padding-right: 2.5rem;
+  padding-bottom: 1.1rem;
+  opacity: 100;
+}
+
 .botonF3:hover {
   transform: scale(1);
 }
@@ -421,6 +435,13 @@ iframe {
   transform: scale(1.05);
   padding-bottom: 0.5rem;
   padding-left: 1rem;
+  opacity: 100;
+}
+
+.globoLeyenda3:hover {
+  transform: scale(1.05);
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
   opacity: 100;
 }
 
