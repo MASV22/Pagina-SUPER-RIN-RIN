@@ -178,6 +178,24 @@ iframe {
   transition: 0.3s;
 }
 
+.botonFI {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #f44336;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -420px;
+  margin-bottom: 450px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 36px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.3s;
+}
+
 .botonF3 {
   width: 50px;
   height: 50px;
@@ -188,6 +206,24 @@ iframe {
   position: absolute;
   margin-left: -150px;
   margin-bottom: 350px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 36px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.3s;
+}
+
+.botonFII {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #f44336;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -450px;
+  margin-bottom: 150px;
   border: none;
   outline: none;
   color: #fff;
@@ -214,6 +250,23 @@ iframe {
   transition: 0.3s;
 }
 
+.botonFIII {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #f44336;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -225px;
+  margin-bottom: 280px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 36px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.3s;
+}
 /* Mas verde */
 
 .globoJuego1 {
@@ -298,22 +351,24 @@ iframe {
   transition: 0.3s;
 }
 
-/* El gato energico */
+/* El niño curioso */
 
-.globoActividad1 {
+.globoActividad2 {
+  opacity: 0;
   width: 20rem;
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -130px;
-  margin-bottom: 365px;
+  margin-left: -740px;
+  margin-bottom: 165px;
   color: #fff;
   transition: 0.3s;
 }
 
 /* La señora de las mil cosas */
 
-.globoActividad2 {
+.globoActividad1 {
+  opacity: 0;
   width: 20rem;
   right: 90;
   bottom: 0;
@@ -324,15 +379,16 @@ iframe {
   transition: 0.3s;
 }
 
-/* La señora de las mil cosas */
+/* El gato energico */
 
 .globoActividad3 {
+  opacity: 0;
   width: 20rem;
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -645px;
-  margin-bottom: 95px;
+  margin-left: -205px;
+  margin-bottom: 295px;
   color: #fff;
   transition: 0.3s;
 }
@@ -409,6 +465,12 @@ iframe {
   padding-bottom: 1.1rem;
   opacity: 100;
 }
+.globoActividad1:hover {
+  transform: scale(1.3);
+  padding-right: 2.5rem;
+  padding-bottom: 1.1rem;
+  opacity: 100;
+}
 
 .botonF2:hover {
   transform: scale(1);
@@ -417,6 +479,12 @@ iframe {
   transform: scale(1.05);
   padding-right: 0.7rem;
   padding-bottom: 0.5rem;
+  opacity: 100;
+}
+.globoActividad2:hover {
+  transform: scale(1.3);
+  padding-right: 2.5rem;
+  padding-bottom: 1.1rem;
   opacity: 100;
 }
 
@@ -442,6 +510,13 @@ iframe {
   transform: scale(1.05);
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
+  opacity: 100;
+}
+
+.globoActividad3:hover {
+  transform: scale(1.3);
+  padding-left: 2.5rem;
+  padding-bottom: 1.1rem;
   opacity: 100;
 }
 
