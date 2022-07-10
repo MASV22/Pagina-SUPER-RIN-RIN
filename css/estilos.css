@@ -168,24 +168,6 @@ iframe {
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -150px;
-  margin-bottom: 350px;
-  border: none;
-  outline: none;
-  color: #fff;
-  font-size: 36px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  transition: 0.3s;
-}
-
-.botonF2 {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  background: #f44336;
-  right: 90;
-  bottom: 0;
-  position: absolute;
   margin-left: -420px;
   margin-bottom: 450px;
   border: none;
@@ -197,6 +179,24 @@ iframe {
 }
 
 .botonF3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #f44336;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -150px;
+  margin-bottom: 350px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 36px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.3s;
+}
+
+.botonF2 {
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -217,6 +217,7 @@ iframe {
 /* Mas verde */
 
 .globoJuego1 {
+  opacity: 0;
   width: 25rem;
   right: 90;
   bottom: 0;
@@ -229,7 +230,8 @@ iframe {
 
 /* Prueba de hielo */
 
-.globoJuego2 {
+.globoJuego3 {
+  opacity: 0;
   width: 25rem;
   right: 90;
   bottom: 0;
@@ -242,7 +244,8 @@ iframe {
 
 /* Rin Rin Corre Corre */
 
-.globoJuego3 {
+.globoJuego2 {
+  opacity: 0;
   width: 25rem;
   right: 90;
   bottom: 0;
@@ -392,13 +395,48 @@ iframe {
 } */
 
 .botonF1:hover {
-  background: #1e1e1e;
+  transform: scale(1);
 }
+.globoJuego1:hover {
+  transform: scale(1.05);
+  padding-right: 1rem;
+  opacity: 100;
+}
+
 .botonF2:hover {
-  background: #1e1e1e;
+  transform: scale(1);
 }
+.globoJuego2:hover {
+  transform: scale(1.05);
+  padding-right: 0.7rem;
+  padding-bottom: 0.5rem;
+  opacity: 100;
+}
+
 .botonF3:hover {
-  background: #1e1e1e;
+  transform: scale(1);
+}
+
+.globoJuego3:hover {
+  transform: scale(1.05);
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  opacity: 100;
+}
+
+.globoJuego3:hover .botonF3 {
+  opacity: 100;
+  animation: aparicionMensaje 1s ease 1s forwards;
+}
+@keyframes aparicionMensaje {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0);
+  }
 }
 
 @keyframes tituloVideo {
