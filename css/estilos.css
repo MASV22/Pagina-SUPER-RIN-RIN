@@ -7,7 +7,7 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  background-color: #221541;
+  background-color: #1f1123;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,11 +18,14 @@
 }
 @keyframes zoom {
   0% {
-    transform: scale(1);
-  }
-  100% {
     transform: scale(1.5);
   }
+  100% {
+    transform: scale(2);
+  }
+}
+.contenidoPagina {
+  display: none;
 }
 
 #cajaHome {
@@ -52,10 +55,6 @@
 body {
   min-height: 100vh;
   background-color: #221541;
-}
-
-.contenidoPagina {
-  display: none;
 }
 
 .overlay {
@@ -203,6 +202,8 @@ iframe {
   font-size: 36px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
 }
 
 .botonFI {
@@ -221,6 +222,8 @@ iframe {
   font-size: 36px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
 }
 
 .botonF3 {
@@ -239,6 +242,8 @@ iframe {
   font-size: 36px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
 }
 
 .botonFII {
@@ -257,6 +262,8 @@ iframe {
   font-size: 36px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
 }
 
 .botonF2 {
@@ -275,6 +282,8 @@ iframe {
   font-size: 36px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
 }
 
 .botonFIII {
@@ -293,6 +302,8 @@ iframe {
   font-size: 36px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
 }
 /* Mas verde */
 
@@ -302,7 +313,7 @@ iframe {
   right: 90;
   bottom: 0;
   position: absolute;
-  margin-left: -790px;
+  margin-left: -780px;
   margin-bottom: 465px;
   color: #fff;
   transition: 0.3s;
@@ -438,6 +449,8 @@ iframe {
   font-size: 36px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
 }
 
 .botonFB {
@@ -456,6 +469,8 @@ iframe {
   font-size: 36px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
 }
 
 .botonFC {
@@ -474,9 +489,11 @@ iframe {
   font-size: 36px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
 }
 #Descubrir:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   filter: contrast(110%) brightness(150%);
   transition: 0.3s;
 }
@@ -561,6 +578,19 @@ iframe {
   opacity: 100;
   animation: aparicionMensaje 1s ease 1s forwards;
 }
+
+@keyframes elevationButton {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @keyframes aparicionMensaje {
   from {
     opacity: 0;
