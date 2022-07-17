@@ -579,6 +579,26 @@ iframe {
   animation: aparicionMensaje 1s ease 1s forwards;
 }
 
+#imgActividad {
+  animation: elevationImage ease 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes elevationImage {
+  0% {
+    transform: scale(1);
+    filter: contrast(100%) brightness(100%);
+  }
+  50% {
+    transform: scale(1.05);
+    filter: contrast(110%) brightness(120%);
+  }
+  100% {
+    transform: scale(1);
+    filter: contrast(100%) brightness(100%);
+  }
+}
+
 @keyframes elevationButton {
   0% {
     transform: scale(1);
