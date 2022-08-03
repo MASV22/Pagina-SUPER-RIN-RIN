@@ -14,7 +14,4 @@ btnCerrarPopup.addEventListener("click", function () {
   popup.classList.remove("active");
   overlay.classList.remove("active");
   rinrin.classList.add("active");
-  // window.addEventListener("scroll", function () {
-  //   tituloV.classList.add("active");
-  // });
 });
