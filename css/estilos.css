@@ -164,6 +164,11 @@ iframe {
   position: relative;
 }
 
+.ARG {
+  width: 10%;
+  background-color: #1f1123;
+}
+
 /* Animacion */
 
 .popup.active {

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARG</title>
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/stylesB.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/dragstyles.css" />
+  </head>
+  <body>
+    <div class="container" style="background-color: aqua">
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-4 col-md-4 mx-auto">
+            <div align="center">
+              <div
+                class="box"
+                id="2"
+                ondrop="drop(event)"
+                ondragover="allowDrop(event)"
+              ></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 mx-auto">
+            <div align="center">
+              <div
+                class="box"
+                id="1"
+                ondrop="drop(event)"
+                ondragover="allowDrop(event)"
+              ></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 mx-auto">
+            <div align="center">
+              <div
+                class="box"
+                id="0"
+                ondrop="drop(event)"
+                ondragover="allowDrop(event)"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container" style="background-color: crimson">
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-2 col-md-2 mx-auto">
+            <div align="center">
+              <img
+                src="assets/imgArg/pez.png"
+                alt=""
+                draggable="true"
+                ondragstart="drag(event)"
+                id="pez"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 mx-auto">
+            <div align="center">
+              <img
+                src="assets/imgArg/fruta.png"
+                alt=""
+                draggable="true"
+                ondragstart="drag(event)"
+                id="fruta"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 mx-auto">
+            <div align="center">
+              <img
+                src="assets/imgArg/tarta.png"
+                alt=""
+                draggable="true"
+                ondragstart="drag(event)"
+                id="tarta"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 mx-auto">
+            <div align="center">
+              <img
+                src="assets/imgArg/tarta.png"
+                alt=""
+                draggable="true"
+                ondragstart="drag(event)"
+                id="tarta"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 mx-auto">
+            <div align="center">
+              <img
+                src="assets/imgArg/tarta.png"
+                alt=""
+                draggable="true"
+                ondragstart="drag(event)"
+                id="tarta"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 mx-auto">
+            <div align="center">
+              <img
+                src="assets/imgArg/tarta.png"
+                alt=""
+                draggable="true"
+                ondragstart="drag(event)"
+                id="tarta"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/dragdrop.js"></script>
+  </body>
+</html>
