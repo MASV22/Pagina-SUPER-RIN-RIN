@@ -23,10 +23,10 @@ function drop(ev) {
 
   if (arreglo[0] != "" && arreglo[0] != "" && arreglo[1] != "" && arreglo[2]) {
     if (arreglo[0] == "fruta" && arreglo[1] == "pez" && arreglo[2] == "tarta") {
-      document.querySelector("h2").innerHTML = "Felicitaciones";
+      //document.querySelector("h2").innerHTML = "Felicitaciones";
       location.href = "index.html";
     } else {
-      document.querySelector("h2").innerHTML = "Error de contraseña";
+      alert("Error de contraseña");
     }
   }
 }
