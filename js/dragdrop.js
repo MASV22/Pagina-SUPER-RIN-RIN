@@ -22,7 +22,7 @@ function drop(ev) {
   ///// Condicion para verificar el orden correcto de la contraseña -------------------------
 
   if (arreglo[0] != "" && arreglo[0] != "" && arreglo[1] != "" && arreglo[2]) {
-    if (arreglo[0] == "fruta" && arreglo[1] == "pez" && arreglo[2] == "tarta") {
+    if (arreglo[0] == "R1" && arreglo[1] == "R2" && arreglo[2] == "R3") {
       //document.querySelector("h2").innerHTML = "Felicitaciones";
       location.href = "index.html";
     } else {
