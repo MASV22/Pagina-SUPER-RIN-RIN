@@ -3,11 +3,82 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: rgb(149, 135, 135);
-  border: 1px solid #000;
+.ranura {
+  width: 250px;
+  height: 250px;
   position: relative;
+}
+.box {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  margin: -25px 0 0 -25px;
+}
+
+#NO:hover {
+  transform: scale(1.05);
+  filter: contrast(110%) brightness(110%);
+  transition: 0.3s;
+}
+
+#NO:not(:hover) {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+#NOO:hover {
+  transform: scale(1.05);
+  filter: contrast(110%) brightness(110%);
+  transition: 0.3s;
+}
+
+#NOO:not(:hover) {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+#NOOO:hover {
+  transform: scale(1.05);
+  filter: contrast(110%) brightness(110%);
+  transition: 0.3s;
+}
+
+#NOOO:not(:hover) {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+#R1:hover {
+  transform: scale(1.05);
+  filter: contrast(110%) brightness(110%);
+  transition: 0.3s;
+}
+
+#R1:not(:hover) {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+#R2:hover {
+  transform: scale(1.05);
+  filter: contrast(110%) brightness(110%);
+  transition: 0.3s;
+}
+
+#R2:not(:hover) {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+#R3:hover {
+  transform: scale(1.05);
+  filter: contrast(110%) brightness(110%);
+  transition: 0.3s;
+}
+
+#R3:not(:hover) {
+  transform: scale(1);
+  transition: 0.3s;
 }
