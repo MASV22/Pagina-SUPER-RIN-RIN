@@ -588,6 +588,9 @@ iframe {
   animation: elevationImage ease 3s;
   animation-iteration-count: infinite;
 }
+#Modal3 {
+  overflow-y: hidden;
+}
 
 @keyframes elevationImage {
   0% {

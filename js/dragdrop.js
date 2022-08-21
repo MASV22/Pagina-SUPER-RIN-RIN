@@ -23,10 +23,9 @@ function drop(ev) {
 
   if (arreglo[0] != "" && arreglo[0] != "" && arreglo[1] != "" && arreglo[2]) {
     if (arreglo[0] == "R1" && arreglo[1] == "R2" && arreglo[2] == "R3") {
-      //document.querySelector("h2").innerHTML = "Felicitaciones";
-      location.href = "index.html";
+      location.href = "arg_win.html";
     } else {
-      alert("Error de contraseña");
+      location.href = "arg_lose.html";
     }
   }
 }
