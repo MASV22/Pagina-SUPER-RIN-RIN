@@ -17,6 +17,7 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
     arreglo[parseInt(ev.target.id)] = data;
     ev.target.appendChild(document.getElementById(data));
+    document.src = "assets/imgArg/ranuraOn.png";
   }
 
   ///// Condicion para verificar el orden correcto de la contraseña -------------------------
