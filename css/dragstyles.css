@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 .ranura {
-  width: 250px;
-  height: 250px;
+  width: 130px;
+  height: 130px;
   position: relative;
 }
 .box {
-  width: 180px;
-  height: 180px;
+  width: 110px;
+  height: 100px;
   position: absolute;
-  top: 15%;
-  left: 25%;
+  top: 25%;
+  left: 30%;
   margin: -25px 0 0 -25px;
 }
 
@@ -93,3 +93,21 @@
   align-items: center;
   justify-content: center;
 }
+
+/* #R1 {
+  position: relative;
+  right: -10rem;
+  bottom: 2rem;
+}
+
+#R2 {
+  position: relative;
+  right: 42rem;
+  bottom: 4rem;
+}
+
+#R3 {
+  position: relative;
+  right: 7rem;
+  bottom: 4rem;
+} */
