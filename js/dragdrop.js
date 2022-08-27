@@ -17,7 +17,6 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
     arreglo[parseInt(ev.target.id)] = data;
     ev.target.appendChild(document.getElementById(data));
-    document.src = "assets/imgArg/ranuraOn.png";
   }
 
   ///// Condicion para verificar el orden correcto de la contraseña -------------------------
@@ -33,4 +32,14 @@ function drop(ev) {
       location.href = "arg_lose.html";
     }
   }
+}
+
+function drop1() {
+  document.getElementById("ranura1").src = "assets/imgArg/ranuraOn.png";
+}
+function drop2() {
+  document.getElementById("ranura2").src = "assets/imgArg/ranuraOn.png";
+}
+function drop3() {
+  document.getElementById("ranura3").src = "assets/imgArg/ranuraOn.png";
 }
