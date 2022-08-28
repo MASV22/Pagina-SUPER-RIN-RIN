@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .loader > div {
   vertical-align: middle;
   animation: zoom 20s infinite linear;
