@@ -30,15 +30,15 @@
 }
 
 #cajaHome {
-  max-width: 120%;
+  max-width: 150%;
   max-height: 100%;
-  right: 5rem;
+  right: 12rem;
   position: relative;
   opacity: 0;
 }
 
 #rinrin {
-  max-width: 180%;
+  max-width: 160%;
   max-height: 100%;
   top: 4rem;
   position: relative;
