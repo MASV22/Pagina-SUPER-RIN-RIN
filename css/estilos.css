@@ -252,6 +252,26 @@ iframe {
   animation-iteration-count: infinite;
 }
 
+.botonF4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #f44336;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -590px;
+  margin-bottom: 330px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 36px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.3s;
+  animation: elevationButton 2s ease 2s;
+  animation-iteration-count: infinite;
+}
+
 .botonFII {
   width: 50px;
   height: 50px;
@@ -335,6 +355,18 @@ iframe {
   position: absolute;
   margin-left: -130px;
   margin-bottom: 360px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.globoJuego4 {
+  opacity: 0;
+  width: 25rem;
+  right: 90;
+  bottom: 0;
+  position: absolute;
+  margin-left: -970px;
+  margin-bottom: 345px;
   color: #fff;
   transition: 0.3s;
 }
@@ -565,6 +597,12 @@ iframe {
   padding-left: 1rem;
   opacity: 100;
 }
+.globoJuego4:hover {
+  transform: scale(1.05);
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  opacity: 100;
+}
 
 .globoLeyenda3:hover {
   transform: scale(1.05);
@@ -581,6 +619,11 @@ iframe {
 }
 
 .globoJuego3:hover .botonF3 {
+  opacity: 100;
+  animation: aparicionMensaje 1s ease 1s forwards;
+}
+
+.globoJuego4:hover .botonF4 {
   opacity: 100;
   animation: aparicionMensaje 1s ease 1s forwards;
 }
