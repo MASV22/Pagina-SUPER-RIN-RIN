@@ -12,7 +12,47 @@
   align-items: center;
   justify-content: center;
 }
+.loaderMobile {
+  display: none;
+}
+.loaderMobileNav {
+  display: visible;
+}
 
+@media screen and (max-width: 900px) {
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .loaderMobileNav {
+    display: none;
+  }
+  .mobilevideo {
+    display: none;
+  }
+  .loaderMobile {
+    display: visible;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #1f1123;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay {
+    visibility: hidden;
+  }
+  .popup {
+    display: none;
+  }
+  .ContJuego {
+    display: none;
+  }
+  .overlay active {
+    display: none;
+  }
+}
 .loader > div {
   vertical-align: middle;
   animation: zoom 20s infinite linear;
